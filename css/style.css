@@ -2687,7 +2687,6 @@ iframe {
         justify-content: center;
         padding-top: 0;
         border: 1px solid #e4b016;
-        position: fixed;
     }
 
     .nav-toggle {
@@ -3092,7 +3091,7 @@ iframe {
         margin: 0 auto;
         max-width: 260px;
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     .logo::after {
@@ -3112,7 +3111,7 @@ iframe {
     }
 
     .nav__link a:last-child {
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
 
     .reservation a {
@@ -3272,18 +3271,6 @@ iframe {
         padding-bottom: 10px;
         padding-top: 0;
     }
-}
-
-@media (max-width: 370px) {
-    .logo {
-        margin-bottom: 30px;
-        margin-top: 0;
-    }
-
-    .nav__link a:last-child {
-        margin-bottom: 25px;
-    }
-
 }
 
 @media (max-width: 350px) {
