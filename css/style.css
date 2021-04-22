@@ -3274,6 +3274,18 @@ iframe {
     }
 }
 
+@media (max-width: 370px) {
+    .logo {
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+
+    .nav__link a:last-child {
+        margin-bottom: 25px;
+    }
+
+}
+
 @media (max-width: 350px) {
     .header__info {
         top: calc(50% - 70px);
