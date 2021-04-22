@@ -1,34 +1,3 @@
-// Slick slider
-$(function () {
-    $('.slick-slider').slick({
-        infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        arrows: true,
-        dots: true,
-        responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3
-                }
-            },
-            {
-                breakpoint: 769,
-                settings: {
-                    slidesToShow: 2
-                }
-            },
-            {
-                breakpoint: 576,
-                settings: {
-                    slidesToShow: 1
-                }
-            }
-        ]
-    });
-});
 
 jQuery(document).ready(function($){
 	var animationDelay = 2500,
@@ -212,4 +181,53 @@ $(function () {
 			nav.removeClass('fixed')
 		);
 	}
+});
+
+// Slick slider
+$(function () {
+    $('.slick-slider').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: true,
+        dots: true,
+        responsive: [{
+                breakpoint: 1151,
+                settings: {
+                    slidesToShow: 3,
+					arrows: false
+                }
+            },
+            {
+                breakpoint: 769,
+                settings: {
+                    slidesToShow: 2,
+					arrows: false
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+					arrows: true
+                }
+            },
+			{
+                breakpoint: 410,
+                settings: {
+                    slidesToShow: 1,
+					arrows: false
+                }
+            }
+        ]
+    });
+});
+
+//  Menu nav toggle
+$('#nav_toggle').on('click', function (event) {
+	event.preventDefault();
+	$(this).toggleClass('active');
+	$('#nav').toggleClass('active');
 });
