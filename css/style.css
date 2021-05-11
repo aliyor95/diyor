@@ -2669,7 +2669,7 @@ iframe {
 }
 
 .order-top div:last-child {
-    margin-right: 53px;
+    margin-right: 50px;
 }
 
 .order-top div:last-child span {
@@ -2734,7 +2734,7 @@ iframe {
 }
 
 .price {
-    margin-right: 60px;
+    margin-right: 50px;
 }
 
 .minus,
@@ -3788,6 +3788,10 @@ iframe {
     .right-button::after {
         left: 25%;
     }
+
+    .wrapper .nav.fixed {
+        background: #000;
+    }
 }
 
 @media (min-width: 992px) {
@@ -4154,10 +4158,6 @@ iframe {
 
     .carousel-inner .carousel-item img {
         height: 270px;
-    }
-
-    .nav.fixed {
-        display: none;
     }
 
     .section {
