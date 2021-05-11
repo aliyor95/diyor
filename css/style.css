@@ -4338,9 +4338,9 @@ iframe {
 
     .logo {
         margin: 0 auto;
-        max-width: 260px;
+        max-width: 240px;
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     .logo::after {
@@ -4355,7 +4355,7 @@ iframe {
     }
 
     .nav__link a {
-        font-size: 35px;
+        font-size: 30px;
         padding: 8px;
     }
 
@@ -4364,7 +4364,7 @@ iframe {
     }
 
     .shop-basket {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 
     .shop {
@@ -4379,8 +4379,8 @@ iframe {
     }
 
     .reservation a {
-        font-size: 22px;
-        padding: 18px;
+        font-size: 20px;
+        padding: 12px;
     }
 
     .carousel-inner .carousel-item img {
