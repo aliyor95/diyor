@@ -3706,7 +3706,7 @@ iframe {
         top: 0;
         background: #000;
         text-align: center;
-        min-height: 110vh;
+        min-height: 120vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
