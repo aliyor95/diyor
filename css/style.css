@@ -2093,6 +2093,88 @@ body {
     }
 }
 
+.vilka {
+    animation-name: vilka;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes vilka {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-60deg);
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(60deg);
+        -webkit-transform: rotate(60deg);
+        -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        -o-transform: rotate(60deg);
+}
+}
+
+.vilka1 {
+    animation-name: vilka1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes vilka1 {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(60deg);
+        -webkit-transform: rotate(60deg);
+        -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+        -o-transform: rotate(60deg);
+}
+
+    50% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-60deg);
+        -webkit-transform: rotate(-60deg);
+        -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+        -o-transform: rotate(-60deg);
+}
+}
+
 .section__title {
     font-family: 'Oranienbaum', sans-serif;
     font-size: 60px;
@@ -2341,6 +2423,7 @@ body {
     top: 0;
     position: absolute;
     background: linear-gradient(180deg, rgba(36, 57, 74, 0.48) 0%, rgba(36, 57, 74, 0.48) 85.94%);
+    color: #24394a
 }
 
 .slider-item:hover .slider__item-img {
