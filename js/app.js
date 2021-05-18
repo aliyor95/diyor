@@ -250,7 +250,7 @@ $(function () {
 				breakpoint: 576,
 				settings: {
 					slidesToShow: 1,
-					arrows: true
+					arrows: false
 				}
 			},
 			{
